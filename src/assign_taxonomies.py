@@ -14,7 +14,7 @@ INPUT_FILE = 'iiit_course_descriptions.json'
 OUTPUT_FILE = 'iiit_gold_standard_complete.json'
 
 genai.configure(api_key=os.getenv("GEMINI_API_KEY"))
-gemini_model = genai.GenerativeModel('gemini-1.5-pro-latest')
+gemini_model = genai.GenerativeModel('gemini-2.5-flash')
 
 grok_client = OpenAI(
     api_key=os.getenv("GROK_API_KEY"),
