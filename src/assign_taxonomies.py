@@ -10,11 +10,11 @@ from google.api_core import retry
 load_dotenv()
 
 # We use the OUTPUT of Script 1 as the INPUT here to keep the pipeline moving
-INPUT_FILE = 'iiit_course_descriptions.json' 
+INPUT_FILE = 'iiit_course_descriptions_generated.json' 
 OUTPUT_FILE = 'iiit_gold_standard_complete.json'
 
 genai.configure(api_key=os.getenv("GEMINI_API_KEY"))
-gemini_model = genai.GenerativeModel('gemini-2.5-flash')
+gemini_model = genai.GenerativeModel('gemma-3-27b-it')
 
 grok_client = OpenAI(
     api_key=os.getenv("GROK_API_KEY"),
