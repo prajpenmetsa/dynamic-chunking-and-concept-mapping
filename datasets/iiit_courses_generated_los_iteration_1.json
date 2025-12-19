@@ -1,0 +1,555 @@
+[
+  {
+    "Course Title": "Advanced Computer Architecture",
+    "Course Code": "CS2.501",
+    "Course Description": "This course delves into advanced computer architecture, focusing on the design and optimization of high-performance computing systems. It covers instruction-level and data-level parallelism, including superscalar processors, GPUs, and vector architectures. The curriculum explores sophisticated memory hierarchy designs, emerging memory technologies, and domain-specific accelerators like TPUs. Furthermore, students will examine the application of AI/ML techniques for architectural enhancements, such as cache optimization and power management. A critical component addresses security vulnerabilities, including side-channel attacks. Upon completion, students can analyze complex architectures, identify performance bottlenecks, and propose effective mitigation strategies, encompassing security considerations.",
+    "Detailed Syllabus": [
+      "Unit 1: Instruction Level Parallelism and Superscalar Processors; Microarchitecture design and analysis of Out-of-Order processors; Compiler and Architecture Interactions.",
+      "Unit 2: Data Level Parallelism and SIMD/GPU Architectures; Vector Architectures; GPUs; Compiler and Architecture Interactions.",
+      "Unit 3: Memory Hierarchy Design and Emerging Memory Technologies; Design of Cache Memory; Distributed Shared Memory; Memory Consistency Models; Non-volatile memories.",
+      "Unit 4: Emerging and Domain Specific Accelerators; Hardware accelerators for deep neural networks and Genomics; AMD AI/ML Engine; TPUs.",
+      "Unit 5: AI/ML Techniques in Architecture; Reinforcement Learning Techniques in Cache Optimization, Branch Prediction etc.; Power Management.",
+      "Unit 6: Security; Side Channel Attacks such as Spectre and Meltdown"
+    ],
+    "Generated_LOs": [
+      "CO-1: Analyze the principles of instruction-level parallelism and superscalar architectures, including out-of-order execution and compiler/architecture interactions.",
+      "CO-2: Evaluate data-level parallelism techniques and architectures such as SIMD, GPUs, and vector processors, considering their compiler interactions.",
+      "CO-3: Design and critically assess sophisticated memory hierarchy systems, including cache designs, distributed shared memory, memory consistency, and emerging memory technologies.",
+      "CO-4: Examine the design and application of domain-specific accelerators, including those for AI/ML and genomics.",
+      "CO-5: Apply AI/ML techniques to optimize architectural components like cache and power management.",
+      "CO-6: Identify and analyze security vulnerabilities in computer architectures, particularly side-channel attacks, and propose mitigation strategies."
+    ],
+    "Generation_Method": "Description_Only_v2"
+  },
+  {
+    "Course Title": "Advanced Computer Networks",
+    "Course Code": "CS3.402",
+    "Course Description": "This Advanced Computer Networks course delves into the intricate principles governing modern network design, analysis, and management. It explores network traffic modeling, performance measurement, and robust flow and congestion control mechanisms, including various TCP variants. The curriculum covers sophisticated routing protocols, router design, and Quality of Service considerations, alongside wireless network technologies and mobility support. Furthermore, it examines cutting-edge topics like Software-Defined Networking (SDN), Information-Centric Networking (ICN), and overlay networks. Upon completion, students will be equipped to apply advanced routing, analyze privacy-enhancing techniques, and design scalable frameworks for contemporary enterprise network infrastructures.",
+    "Detailed Syllabus": [
+      "Unit 1: Modeling and measurement: Network traffic modeling, network measurement, simulation issues, network coding techniques.",
+      "Unit 2: Flow and congestion control, TCP variants, TCP modeling, active queue management.",
+      "Unit 3: Routing: Router design, scheduling, QoS, integrated and differentiated services.",
+      "Unit 4: Wireless networks: Mobility supports, MAC, multicast.",
+      "Unit 5: Overlay networks and Emerging applications: SDN, ICN, P2P, CDN, Web caching, cross-layer optimizations, VoIP, SIP, video over P2P"
+    ],
+    "Generated_LOs": []
+  },
+  {
+    "Course Title": "Advanced Natural Language Processing (NLP)",
+    "Course Code": "CS7.501",
+    "Course Description": "This advanced Natural Language Processing course explores contemporary paradigms in semantic representation, from distributed to contextual models such as ELMO and BERT. It critically examines statistical and neural approaches to Machine Translation, alongside advanced methods for extractive and abstractive summarization. The curriculum further integrates the application of Reinforcement Learning within NLP contexts. Through this exploration, students will gain a comprehensive understanding of deep learning models and apply these sophisticated techniques to tackle complex, fundamental NLP tasks.",
+    "Detailed Syllabus": [
+      "Unit 1: Distributed Semantics.",
+      "Unit 2: Contextual Distributed Semantics; Models such as ELMO, BERT, ERNIE and their derivatives.",
+      "Unit 3: Statistical Machine Translation methods; Early Neural Machine Translation models.",
+      "Unit 4: Extractive and Abstractive Summarization; Neural Summarization Methods.",
+      "Unit 5: Reinforcement learning for NLP"
+    ],
+    "Generated_LOs": [
+      "CO-1: Critically evaluate the theoretical underpinnings and practical applications of distributed and contextual semantic representation models in NLP.",
+      "CO-2: Analyze the evolution of Machine Translation techniques, comparing and contrasting statistical and early neural approaches.",
+      "CO-3: Design and implement advanced neural methods for both extractive and abstractive text summarization.",
+      "CO-4: Apply Reinforcement Learning principles to solve complex problems within Natural Language Processing tasks.",
+      "CO-5: Synthesize knowledge of deep learning architectures and apply them to develop sophisticated solutions for fundamental NLP challenges.",
+      "CO-6: Compare and contrast the strengths and weaknesses of various contemporary NLP models for semantic representation and generation."
+    ],
+    "Generation_Method": "Description_Only_v2"
+  },
+  {
+    "Course Title": "Advanced Operating Systems",
+    "Course Code": "CS3.304",
+    "Course Description": "This course offers an in-depth exploration of advanced operating system design and implementation principles, with a significant focus on the Linux kernel. Students will analyze core OS abstractions, system calls, and delve into critical components like virtual memory management, CPU scheduling algorithms, and concurrent programming paradigms. Practical engagement involves kernel module programming, extending system calls, and understanding kernel startup and debugging techniques. Upon completion, students will possess a profound understanding of OS internals, practical kernel development skills, and an awareness of contemporary research directions in operating systems.",
+    "Detailed Syllabus": [
+      "History of Operating Systems, Processes and OS Abstractions, OS APIs, Interrupts and system calls, Introduction to the Linux Kernel, Compiling the kernel, Module programming, Writing your own system calls, Overview of kernel startup and initialization, Kernel Debugging Techniques, Interrupts PICS, APICS, exceptions (traps) and hard interrupts, IDTs, Address Spaces and Loading, Virtual Memory, Memory allocators, Overview of memory spaces: logical segmentation, linear virtual, actual physical, Detecting BIOS-provided physical RAM map, paging, buddy system, setting up page directories (global, upper, middle), tables and PTES, (N)UMA, nodes, zone, memory types, Setting up buddy system, Allocating contiguous pages from buddy system, Setting up slabs for small memory objects, CPU Scheduling, Threads, Process structures, organization, initialization, Concurrent Programming, Locking, Deadlocks, Structures: thread union, thread info, stack, task, and thread struct, Creating kernel threads, using kthread, Kernel process scheduling, Scheduling processes with red-black tree, process switching, Context switches, Switching to suspended process, Linux File Systems and Disk Scheduling"
+    ],
+    "Generated_LOs": [
+      "LO-1: Analyze the fundamental concepts and historical evolution of operating systems, including core abstractions, APIs, interrupts, and system calls.",
+      "LO-2: Design and implement basic operating system functionalities within the Linux kernel, including kernel module programming and extending system calls.",
+      "LO-3: Evaluate and compare various CPU scheduling algorithms and concurrency control mechanisms used in modern operating systems.",
+      "LO-4: Understand and apply advanced virtual memory management techniques, including paging, memory allocation strategies, and NUMA architectures.",
+      "LO-5: Debug and troubleshoot kernel-level operations using advanced debugging techniques and understand the kernel startup and initialization process.",
+      "LO-6: Explain the structure and organization of processes and threads within the Linux kernel, and implement kernel threads.",
+      "LO-7: Describe the architecture of Linux file systems and disk scheduling mechanisms."
+    ],
+    "Generation_Method": "Description_Only_v2"
+  },
+  {
+    "Course Title": "Algorithms and Operating Systems",
+    "Course Code": "CS3.306",
+    "Course Description": "This course provides a foundational understanding of Operating Systems and core algorithmic principles. Students will explore OS components including processes, multithreading, scheduling, process synchronization, memory management, and deadlock handling. Concurrently, the course delves into fundamental algorithmic thinking, complexity analysis, and design paradigms such as greedy, divide and conquer, dynamic programming, and graph algorithms. Practical outcomes include the ability to design efficient algorithms for complex computational problems, optimize resource management within operating environments, and implement robust applications by leveraging process and thread frameworks.",
+    "Detailed Syllabus": [
+      "Unit 1: Introduction to Operating Systems; Introduction to Algorithms and Complexity; Introduction to Process, multithreading and process scheduling.",
+      "Unit 2: Process Synchronization; Greedy Algorithms; Divide and Conquer Algorithms.",
+      "Unit 3: Dynamic Programming; Memory Management.",
+      "Unit 4: Deadlocks; Graph Algorithms"
+    ],
+    "Generated_LOs": [
+      "CO-1: Explain the fundamental concepts of operating systems, including processes, multithreading, scheduling, process synchronization, memory management, and deadlock handling.",
+      "CO-2: Analyze the time and space complexity of algorithms using Big O notation and other relevant metrics.",
+      "CO-3: Design and implement efficient algorithms for various computational problems using paradigms such as greedy approaches, divide and conquer, dynamic programming, and graph algorithms.",
+      "CO-4: Evaluate different process scheduling algorithms based on their performance metrics and suitability for specific system requirements.",
+      "CO-5: Apply techniques for managing system resources, including memory allocation and deadlock prevention/detection mechanisms.",
+      "CO-6: Integrate algorithmic thinking with operating system concepts to develop and optimize robust software applications that effectively utilize system resources."
+    ],
+    "Generation_Method": "Description_Only_v2"
+  },
+  {
+    "Course Title": "Algorithm Analysis and Design",
+    "Course Code": "CS1.301",
+    "Course Description": "This course provides a rigorous exploration of fundamental principles in algorithm analysis and design. Students will engage with classic design paradigms, including greedy algorithms, divide and conquer, and dynamic programming, applying them to problems such as graph algorithms and network flows. The curriculum then progresses to advanced topics like computational intractability, NP-completeness, and strategies for managing hard problems. Furthermore, the course introduces modern algorithmic approaches, covering approximation, randomized, and an overview of quantum algorithms. Upon completion, students will possess the ability to analyze algorithm efficiency, select appropriate design paradigms for diverse computational challenges, and understand methods for addressing inherent problem hardness.",
+    "Detailed Syllabus": [
+      "1. Basic graph algorithms",
+      "2. Greedy algorithms",
+      "3. Divide and Conquer",
+      "4. Dynamic Programming",
+      "5. Network flows",
+      "6. NP and computational intractability",
+      "7. Intro to Approximation and Randomized algorithms",
+      "8. Intro to Quantum algorithms"
+    ],
+    "Generated_LOs": [
+      "CO-1: Analyze the time and space complexity of algorithms using asymptotic notation.",
+      "CO-2: Design algorithms using greedy, divide and conquer, and dynamic programming paradigms to solve computational problems.",
+      "CO-3: Apply graph traversal and shortest path algorithms to solve real-world problems.",
+      "CO-4: Evaluate the tractability of problems and identify instances of NP-complete problems.",
+      "CO-5: Understand and apply strategies for designing algorithms for intractable problems, including approximation and randomized approaches.",
+      "CO-6: Comprehend the fundamental concepts and potential of quantum algorithms.",
+      "CO-7: Select and justify appropriate algorithmic approaches for a given computational task based on efficiency and problem characteristics."
+    ],
+    "Generation_Method": "Description_Only_v2"
+  },
+  {
+    "Course Title": "Applied Ethics",
+    "Course Code": "HS0.303",
+    "Course Description": "This course offers a rigorous examination of the philosophical foundations and analytical tools necessary for critical ethical inquiry. It navigates foundational concepts, argument analysis, and delves into challenges such as moral skepticism, cultural relativism, and the nature of 'good'. The curriculum then explores moral responsibility and critically evaluates major normative theories—consequentialism, deontology, and virtue ethics—applying them to contemporary ethical dilemmas. Students will develop advanced skills in analyzing ethical arguments, formulating nuanced justifications, and applying diverse normative frameworks to complex moral problems.",
+    "Detailed Syllabus": [
+      "Unit I- Introduction: Distinction between conventional and critical ethics, philosophical tools for argument analysis, intuition, evidence, justification, and explanation.",
+      "Unit II - Skepticism: Intrinsic vs Instrumental value, challenge of egoism, problem of cultural relativity and subjectivism, error theory and nihilism, distinction between being ethical and seeming ethical.",
+      "Unit III - Goodness: the problem of defining 'good', naturalistic fallacy and the open question argument, implications of the experience machine thought experiment.",
+      "Unit IV - Responsibility: challenge of attributing moral responsibility to agents, the control, competence and epistemic conditions of responsibility, moral luck.",
+      "Unit V - Normative theories: Consequentialism, deontology, and virtue ethics.",
+      "Unit VI - Practical ethics: discussion of specific moral problems"
+    ],
+    "Generated_LOs": [
+      "CO-1: Analyze the fundamental concepts and philosophical tools for critical ethical inquiry, distinguishing between conventional and critical ethical approaches.",
+      "CO-2: Evaluate challenges to ethical knowledge, including moral skepticism, egoism, cultural relativism, subjectivism, error theory, and nihilism.",
+      "CO-3: Define and critically assess the concept of 'good' in ethics, analyzing arguments related to naturalistic fallacies and the implications of thought experiments like the experience machine.",
+      "CO-4: Examine the conditions and challenges of attributing moral responsibility to agents, including the roles of control, competence, and moral luck.",
+      "CO-5: Compare and contrast major normative ethical theories, including consequentialism, deontology, and virtue ethics.",
+      "CO-6: Apply diverse normative ethical frameworks to analyze and propose reasoned justifications for complex contemporary moral dilemmas.",
+      "CO-7: Formulate nuanced ethical arguments and justifications for positions taken on practical ethical problems."
+    ],
+    "Generation_Method": "Description_Only_v2"
+  },
+  {
+    "Course Title": "Automata Theory",
+    "Course Code": "CS1.302",
+    "Course Description": "Automata Theory provides a foundational exploration into theoretical computation, examining abstract machines and the formal languages they process. The course systematically covers finite automata (DFA, NFA) and their relationship with regular languages, including expressions and grammars. It then progresses to context-free grammars and pushdown automata, analyzing context-free languages. Finally, it introduces Turing machines, exploring universal computation, recursive languages, and fundamental concepts of computability and its inherent limitations. Students will gain proficiency in designing computational models, classifying formal languages, and understanding computational theory's boundaries.",
+    "Detailed Syllabus": [
+      "Unit 1: Introduction, Finite State Machines, Deterministic Finite Automata (DFA), Nondeterministic Finite Automata (NFA), Equivalence of NFA and DFA, Regular Expressions, Regular Languages, Closure Properties of regular languages, Pumping Lemma, Grammars, Left and Right-linear grammars.",
+      "Unit 2: Context Free Grammar (CFG), Chomsky Normal Form, Push Down Automata (PDA), Equivalence of CFG and PDA, Context Free Languages (CFL), Deterministic PDA and Deterministic CFL, Pumping Lemma for context free languages.",
+      "Unit 3: Introduction to Turing machines, Total Turing Machines, Recursive languages, Recursively enumerable languages, The Halting problem"
+    ],
+    "Generated_LOs": [
+      "CO-1: Define and differentiate between Deterministic Finite Automata (DFA) and Nondeterministic Finite Automata (NFA), and explain their equivalence.",
+      "CO-2: Construct regular expressions and regular grammars for given regular languages and analyze the closure properties of regular languages.",
+      "CO-3: Design and analyze Context-Free Grammars (CFGs) and Pushdown Automata (PDAs) to recognize context-free languages.",
+      "CO-4: Apply the Pumping Lemma to prove whether a given language is regular or context-free.",
+      "CO-5: Describe the architecture and capabilities of Turing machines and their role in defining computability.",
+      "CO-6: Classify languages as recursive or recursively enumerable and explain the implications of the Halting Problem."
+    ],
+    "Generation_Method": "Description_Only_v2"
+  },
+  {
+    "Course Title": "Basics of Ethics",
+    "Course Code": "HS0.203",
+    "Course Description": "This course introduces the foundational concepts and philosophical inquiry of ethics, emphasizing critical reasoning and argument analysis. It explores the distinctions between conventional and philosophical ethical approaches, alongside challenges posed by ethical skepticism, egoism, and cultural relativism. The curriculum delves into the complexities of defining 'good' and attributing moral responsibility. Students will engage with major normative ethical theories, including consequentialism, deontology, and virtue ethics, understanding their tenets and scope. By the end, students will be equipped to analyze ethical arguments, navigate conceptual challenges in normative inquiry, and formulate nuanced ethical justifications, fostering a critical understanding of moral frameworks.",
+    "Detailed Syllabus": [
+      "Unit I - Introduction: Distinction between conventional and critical ethics, philosophical tools for argument analysis, intuition, evidence, justification, and explanation.",
+      "Unit II - Skepticism: Intrinsic vs Instrumental value, challenge of egoism, problem of cultural relativity and subjectivism, error theory and nihilism, distinction between being ethical and seeming ethical.",
+      "Unit III - Goodness: the problem of defining 'good', naturalistic fallacy and the open question argument, implications of the experience machine thought experiment.",
+      "Unit IV - Responsibility: challenge of attributing moral responsibility to agents, the control, competence and epistemic conditions of responsibility, moral luck.",
+      "Unit V - Normative theories: Consequentialism, deontology, and virtue ethics"
+    ],
+    "Generated_LOs": [
+      "CO-1: Distinguish between conventional and philosophical approaches to ethics, utilizing foundational concepts of argument analysis.",
+      "CO-2: Analyze the challenges posed by ethical skepticism, egoism, and cultural relativism to the possibility of objective moral knowledge.",
+      "CO-3: Evaluate the complexities and implications of defining 'good' and attributing moral responsibility.",
+      "CO-4: Compare and contrast major normative ethical theories, including consequentialism, deontology, and virtue ethics, by explaining their core tenets.",
+      "CO-5: Apply ethical theories to analyze complex moral dilemmas and formulate reasoned justifications for ethical judgments.",
+      "CO-6: Construct well-supported ethical arguments, demonstrating critical reasoning and the ability to identify logical fallacies."
+    ],
+    "Generation_Method": "Description_Only_v2"
+  },
+  {
+    "Course Title": "Behavioral Research: Experimental Design",
+    "Course Code": "CG3.402",
+    "Course Description": "This course provides a comprehensive foundation in behavioral research, focusing on experimental design principles and methodologies. It covers the entire research process, from hypothesis formulation, operationalization, and literature review to various experimental designs, data collection strategies (including web/mobile and crowdsourcing), and advanced statistical analysis techniques like descriptive, inferential, and data reduction methods. Students will develop the practical skills to design, deploy, and analyze behavioral experiments, critically evaluate ethical considerations, and effectively communicate their research findings in academic formats.",
+    "Detailed Syllabus": [
+      "1. Introduction to Research Methods: Qualitative and Quantitative Approaches; Conducting Behavioural Research; Ethics in Research; Institute Review Board (IRB) Process.",
+      "2. Starting on Research, Experimental Design: Hypothesis Testing, Type I and II errors, Hypothesis-based vs Exploratory Research, Operationalizing Research, Literature Review; Sampling, Types of variables and levels of Measurements, Designing an Experiment; Validity, Reliability and Cross-validation in Research.",
+      "3. Types of Experimental design: Non-Experimental Designs, Pilot Testing; Data Collection: Surveys Questionnaires; Data Representation: Levels of Measurement, Human Annotation, Different types of design: Simple randomized design, Factorial designs, Simple repeated measures design, Randomized blocks design, Latin square type designs, Between-subject and within-subject factors in an experiment; Scaling Behavioural Experiments: web and mobile experiments, crowdsourcing, big data, large-scale experiments, citizen science, online data collection (PsiTurk, Mechanical Turk, etc).",
+      "4. Data Visualization and Analysis: Descriptive Statistics, Tests of Normality and Data Transformation, Outliers, Collinearity in Data, Data Summarization vs Data Reduction Techniques: Exploratory Factor Analysis, Principal Component Analysis, Discriminant Factor Analysis.",
+      "5. Introduction to Statistical Analysis: Inferential Statistics-Tests of Difference and Tests of Association: Multi-level tests (ANOVA): nonparametric and parametric tests of difference chi-square test, Mann Whitney U test, Binomial Sign test, Wilcoxon's T test, Related and Unrelated t tests; nonparametric and parametric tests of association correlation, regression; Significance testing.",
+      "6. Communicating and Assessing Research: Writing, Poster and general Presentations (formatting of the research paper using APA and IEEE journal/conference formats)"
+    ],
+    "Generated_LOs": [
+      "LO-1: Explain the fundamental principles and ethical considerations of behavioral research, including the IRB process.",
+      "LO-2: Formulate testable hypotheses, conduct literature reviews, and operationalize research variables for experimental designs.",
+      "LO-3: Design and critically evaluate various experimental and non-experimental research designs, considering validity, reliability, and different data collection methods.",
+      "LO-4: Apply descriptive and inferential statistical techniques to analyze behavioral data, including tests of difference and association.",
+      "LO-5: Utilize data reduction techniques such as Exploratory Factor Analysis and Principal Component Analysis to summarize complex datasets.",
+      "LO-6: Communicate research findings effectively through academic writing and presentations adhering to established formatting standards (APA, IEEE)."
+    ],
+    "Generation_Method": "Description_Only_v2"
+  },
+  {
+    "Course Title": "Bioinformatics",
+    "Course Code": "SC3.202",
+    "Course Description": "This course provides a comprehensive introduction to Bioinformatics, emphasizing computational methods for managing and interpreting biological sequence and structural data. It covers essential biological databases, next-generation sequencing technologies, and fundamental algorithms for sequence alignment (pairwise and multiple), pattern searching, and database querying. Students will explore principles of phylogenetic reconstruction and various gene prediction methodologies, integrating probabilistic models. Upon completion, students will be proficient in utilizing web-based bioinformatics tools and implementing core analytical methods for biological sequence interpretation.",
+    "Detailed Syllabus": [
+      "Unit 1: Overview Bioinformatics, Gene and Genome structure, Gene Technology Restriction Endonucleases, Cloning vectors, DNA sequencing - PCR, cDNA and Whole Genome sequencing, NGS and third generation sequencing technologies.",
+      "Unit 2: Bio Databases: Major Bioinformatics Resources NCBI, EBI, PubMed, Primary Nucleotide and Proteins Databases - GenBank, Uniport, PDB, Genome Browsers - Ensemble, UCSC, k-mer analysis and their significance in biological sequences.",
+      "Unit 3: Sequence Alignment: Pairwise Alignment - Types of pairwise alignments - Global, Local and Overlap alignments, Dot Plots, dynamic programming (DP) algorithm, Scoring matrices for nucleotides and proteins and gap penalties, Sequence-based Database Search algorithms - BLAST, FASTA, Multiple Alignment, Algorithms for Global and Local MSA - DP, Progressive based (ClustalX), Iterative methods, motif search-based methods.",
+      "Unit 4: Modeling Molecular Evolution - Phylogeny: Markov models of base substitution, Computing Phylogenetic Distances, Phylogenetic Tree Construction Methods, PHYLIP.",
+      "Unit 5: Gene Prediction: Gene Prediction approaches Open Reading Frames, Homology search, Content-based methods, Markov models"
+    ],
+    "Generated_LOs": [
+      "CO-1: Explain the fundamental concepts of bioinformatics, including gene and genome structure, and the principles behind various DNA sequencing technologies.",
+      "CO-2: Identify and utilize major biological databases (e.g., NCBI, EBI, UniProt, PDB) for retrieving and interpreting biological sequence and structural data.",
+      "CO-3: Apply dynamic programming algorithms and heuristic methods (e.g., BLAST, FASTA) to perform pairwise and multiple sequence alignments.",
+      "CO-4: Analyze biological sequences using k-mer analysis and motif search techniques.",
+      "CO-5: Construct and interpret phylogenetic trees using various computational methods and software.",
+      "CO-6: Evaluate different gene prediction methodologies, including homology-based and content-based approaches utilizing probabilistic models.",
+      "CO-7: Utilize web-based bioinformatics tools and implement core analytical methods to interpret biological sequence data."
+    ],
+    "Generation_Method": "Description_Only_v2"
+  },
+  {
+    "Course Title": "Bio-instrumentation and Devices",
+    "Course Code": "EC1.202",
+    "Course Description": "This course delves into the fundamental principles and design of bio-instrumentation and devices, with a primary focus on electrophysiological signal acquisition and processing. It covers the generation of biological signals, their capture using micro-electrode systems, and subsequent amplification and conditioning via instrumentation amplifiers and specialized low-power CMOS circuits. The curriculum further explores Bio-MEMs, microfluidics, and lab-on-a-chip diagnostic devices, alongside various semiconductor and non-electrical sensing technologies. Students will gain the ability to design and analyze systems for processing electrophysiological signals and understand the operation of cutting-edge diagnostic tools.",
+    "Detailed Syllabus": [
+      "Module 1: Biological signals: electrophysiology (cardio, near, muscular); other signals. Understanding various biological system and the electrical signal they generate. Capturing the signals for biomedical systems. Micro-electrode arrays and micro-electrode systems.",
+      "Module 2: Amplification & Signal Conditioning basics: Opamps; Instrumentation Amplifier; TIA: Review of analog circuits and amplifiers (AEC). Circuit system for specific applications.",
+      "Module 3: CMOS VLSI circuit design, Potentiostat; switch cap amps: Discussion and analysis of specialized circuits and circuit design techniques for low power.",
+      "Module 4: Diagnostic devices: UTAS & Lab-on-a-chip (RT PCR, On-chip-olfaction): Introduction to Bio-MEMs, Micro-fluidics. Basics of device fabrication theory (non-semiconductor). Status quo and review of some cutting-edge lab-on-chip applications. Introduction to smart systems.",
+      "Module 5: JFET, ISFET, ChemFET; Non-electrical devices: Introduction to other semiconductor and non-semiconductor-based devices. Discussion and working of various devices. Current and future trends. Brief discussion on FinFETs.",
+      "Module 6: Noise & noise efficient design"
+    ],
+    "Generated_LOs": [
+      "CO-1: Explain the fundamental principles of biological signal generation, focusing on electrophysiological phenomena in various biological systems.",
+      "CO-2: Analyze the design and application of micro-electrode systems for effective bio-signal acquisition.",
+      "CO-3: Design and evaluate amplification and signal conditioning circuits, including instrumentation amplifiers and specialized low-power CMOS circuits, for bio-signal processing.",
+      "CO-4: Comprehend the principles of Bio-MEMs, microfluidics, and lab-on-a-chip devices for diagnostic applications.",
+      "CO-5: Compare and contrast the operation of various semiconductor and non-electrical sensing technologies used in bio-instrumentation.",
+      "CO-6: Apply principles of noise reduction and efficient design to bio-instrumentation systems.",
+      "CO-7: Synthesize knowledge to analyze and understand the operation of cutting-edge diagnostic tools and smart bio-instrumentation systems."
+    ],
+    "Generation_Method": "Description_Only_v2"
+  },
+  {
+    "Course Title": "Biomolecular Structure Interactions and Dynamics",
+    "Course Code": "SC3.321",
+    "Course Description": "This course profoundly explores biomolecular structure, interaction, and dynamics, critical for comprehending biological function. It covers foundational physicochemical principles, kinetics, and thermodynamics essential for dissecting biomolecular mechanisms. Students will investigate key experimental methods and structural concepts applied to protein and nucleic acid architectures. The curriculum integrates advanced computational approaches, including molecular modeling, docking, and molecular dynamics simulations. Learners will develop proficiency in inferring biomolecular function and interactions from sequence data and effectively utilize relevant structural and functional databases for comprehensive biological inquiry.",
+    "Detailed Syllabus": [
+      "Navigating the 'Sequence - Structure - Function' Space for Biomolecules. Understanding the 'physicochemical' principles underlying the 'structure-interaction-dynamics-function' of biomolecular machines. Application of the above principles to analyze the relationship of few molecular systems"
+    ],
+    "Generated_LOs": [
+      "LO-1: Explain the fundamental physicochemical principles governing biomolecular structure, interaction, and dynamics, and their relationship to biological function.",
+      "LO-2: Analyze the architectures of proteins and nucleic acids, relating their structural features to their roles in biological processes.",
+      "LO-3: Apply kinetic and thermodynamic concepts to understand the mechanisms of biomolecular interactions and reactions.",
+      "LO-4: Evaluate the strengths and limitations of key experimental methods used to determine biomolecular structure and dynamics.",
+      "LO-5: Utilize computational approaches, including molecular modeling and simulations, to investigate biomolecular interactions and dynamics.",
+      "LO-6: Infer biomolecular function from sequence data and relevant structural information.",
+      "LO-7: Effectively navigate and utilize structural and functional databases for comprehensive biological inquiry."
+    ],
+    "Generation_Method": "Description_Only_v2"
+  },
+  {
+    "Course Title": "Blockchain and Web3 Development",
+    "Course Code": "TBD",
+    "Course Description": "This course provides a comprehensive exploration of blockchain technology and Web3 development principles. It covers foundational concepts like decentralization, distributed consensus, and the architecture of Bitcoin and Ethereum, including smart contracts and the EVM. Students will master Solidity programming, focusing on secure contract design, token standards, and the integration of decentralized applications (DApps). The curriculum also delves into advanced topics such as decentralized storage, oracle integration, and various blockchain scaling solutions. Graduates will be equipped to develop robust DApps, applying knowledge of smart contract security, scalability, and storage considerations.",
+    "Detailed Syllabus": [
+      "Unit 1: Introduction to decentralization and distributed consensus, Bitcoin blockchain, transactions and scripting, addresses and wallets, crypto mining, security attacks and anonymity in blockchain.",
+      "Unit 2: Bitcoin vs. Ethereum, the need for smart contracts, tokens vs. coins, Ethereum Virtual Machine (EVM), isolation and security in EVM execution model, gas system, PoS consensus.",
+      "Unit 3: Solidity, Remix IDE, basic variable types, functions, arrays, structs, and mappings, handling errors, imports, modifiers, inheritance, events and return variables, interacting with contract Application Binary Interface (ABI), memory modifiers and cost concerns, token standards (ERC-20, ERC-721, and ERC-1155).",
+      "Unit 4: DApps, backend languages, development frameworks (Truffle vs. Hardhat vs. Foundry), integrating frontend, backend, and smart contracts, unit tests, interacting with the outside world using Oracles, decentralized storage (temporarily on IPFS, permanently on Arweave), secure development using Open Zeppelin, upgradable smart contracts.",
+      "Unit 5: Scaling solutions, state channels, payment channels (PCN and PCH), side/child chains, commit and Plasma chains, Rollups (zk and Optimistic), cross chains, hybrid solutions"
+    ],
+    "Generated_LOs": [
+      "LO-1: Explain the fundamental principles of decentralization, distributed consensus, and the architectural components of major blockchain platforms like Bitcoin and Ethereum.",
+      "LO-2: Analyze the functionality and security implications of smart contracts within the Ethereum Virtual Machine (EVM).",
+      "LO-3: Design, develop, and deploy secure smart contracts using Solidity, adhering to common token standards (ERC-20, ERC-721, ERC-1155).",
+      "LO-4: Integrate smart contracts with frontend and backend systems to build functional decentralized applications (DApps), utilizing development frameworks and external data sources.",
+      "LO-5: Evaluate and compare various blockchain scaling solutions, including state channels, sidechains, and rollups, for their applicability in DApp development.",
+      "LO-6: Apply best practices for smart contract security and explore advanced concepts such as decentralized storage and oracle integration in Web3 development."
+    ],
+    "Generation_Method": "Description_Only_v2"
+  },
+  {
+    "Course Title": "Business Fundamentals",
+    "Course Code": "PD2.421",
+    "Course Description": "This course, Business Fundamentals, provides a comprehensive introduction to the essential concepts and practices underpinning modern business. It explores forms of business ownership, economic principles, and organizational structures, alongside fundamental management areas such as Operations, HR, Marketing, Accounting, Finance, Information Systems, and Strategy. Integrating themes of ethics, social responsibility, total quality management, and global business, the curriculum also delves into product development and value creation. Students will cultivate capabilities in strategic decision-making, resource optimization, and effective product marketing, enabling them to comprehend firm strategies and lead product initiatives.",
+    "Detailed Syllabus": [
+      "Introduction to Foundations of Business; Forms of Business Ownership; Business and Economics; Organization Structure; Fundamental areas of Management: Operations Management, HR, Marketing, Accounting and Finance, Information Systems, Strategy Management; Ethics and Social Responsibility; Total Quality Management; Product Development Process and Value Creation; Managing Teams, Leadership and Global Business"
+    ],
+    "Generated_LOs": [
+      "CO-1: Define and differentiate various forms of business ownership, organizational structures, and economic principles relevant to modern business.",
+      "CO-2: Explain the core functions of fundamental management areas including Operations, HR, Marketing, Accounting, Finance, Information Systems, and Strategy.",
+      "CO-3: Analyze the impact of ethics, social responsibility, and total quality management on business practices and decision-making.",
+      "CO-4: Describe the product development process and evaluate methods of value creation for businesses.",
+      "CO-5: Apply principles of teamwork, leadership, and global business in understanding and contributing to organizational success.",
+      "CO-6: Evaluate business strategies and propose solutions for resource optimization and effective product marketing.",
+      "CO-7: Synthesize knowledge of business fundamentals to comprehend firm strategies and contribute to leading product initiatives."
+    ],
+    "Generation_Method": "Description_Only_v2"
+  },
+  {
+    "Course Title": "Chemistry Topics for Engineers",
+    "Course Code": "SC2.309",
+    "Course Description": "This course provides engineers with a foundational understanding of essential chemical principles, emphasizing modern analytical techniques and advanced materials. It covers modern atomic and molecular spectroscopy, including NMR and ESR, for chemical identification and characterization. The curriculum then explores molecular orbital theory, electronic properties of solid materials, and various advanced systems like superconductors, conducting polymers, and nanomaterials. An introduction to green synthesis principles is also included. Upon completion, students will apply spectroscopic methods for analysis, comprehend material electronic properties, identify diverse applications of modern materials, and understand sustainable chemical practices.",
+    "Detailed Syllabus": [
+      "Unit 1: Introduction to modern atomic theory and its application to explain the atomic spectra and molecular spectra. Origin of electronic, vibrational and rotational levels, and their signatures in spectra. (3L)",
+      "Unit 2: Excited states of atom and molecules. Lasers. Fluorescence, phosphorescence, and Froster energy transfer",
+      "Unit 3: Introduction to Nuclear Magnetic Resonance Spectroscopy, and Electron Spin Resonance Spectroscopy (2L)",
+      "Unit 4: Modern Electrochemistry. Butler-Volmer equation. Biosensing using electrochemical principles (4L)",
+      "UNIT 5: Molecular Orbital Theory (Polar and Ionic compounds, Conductors, Semiconductor); Inorganic Pigments and Phosphors; and Superconductors Chemistry. (5L)",
+      "UNIT 6: Modern and Futuristic Materials: Hydrides and Hydrogen Storage Materials; Molecular Materials; Liquid Crystals; Conducting Polymers; Supramolecular and Nanostructured Materials. (6L)",
+      "UNIT 7: Green Synthesis: Principles and methods of synthesis with examples. (1L)"
+    ],
+    "Generated_LOs": [
+      "CO-1: Explain the fundamental principles of modern atomic and molecular spectroscopy, including NMR and ESR, to characterize chemical species.",
+      "CO-2: Apply principles of excited states, lasers, and energy transfer phenomena to understand spectroscopic techniques.",
+      "CO-3: Analyze electrochemical processes and their applications in biosensing.",
+      "CO-4: Comprehend the application of Molecular Orbital Theory to explain the electronic properties of various solid materials.",
+      "CO-5: Identify and describe the chemical principles behind advanced materials such as superconductors, conducting polymers, and nanomaterials.",
+      "CO-6: Evaluate the principles and methods of green synthesis for sustainable chemical practices."
+    ],
+    "Generation_Method": "Description_Only_v2"
+  },
+  {
+    "Course Title": "Chemical Kinetics and Reaction Dynamics",
+    "Course Code": "SC2.305",
+    "Course Description": "This course explores chemical kinetics and reaction dynamics, foundational to understanding chemical change. It covers empirical rate laws, integrated kinetics, and temperature dependence, progressing to complex reaction mechanisms, homogeneous catalysis, and photochemistry. Students will delve into molecular reaction dynamics, applying collision and transition state theories to interpret potential energy surfaces. The curriculum also examines electron transfer processes and modern ultrafast laser techniques. Ultimately, students will analyze reaction mechanisms, predict rates, and connect theoretical principles to experimental observations and practical applications across scientific and industrial fields.",
+    "Detailed Syllabus": [
+      "Unit 1: Empirical chemical kinetics: Experimental techniques; The rates of reactions; Integrated rate laws; Reactions approaching equilibrium; The temperature dependence of reaction rates; Accounting for the rate laws; Elementary reactions; Consecutive elementary reactions; Impact on biochemistry: The kinetics of the helix-coil transition in polypeptides; Unimolecular reactions. (2L)",
+      "Unit 2: Chain reactions; The rate laws of chain reactions; Explosions; Polymerization kinetics; Stepwise polymerization; Chain polymerization; Homogeneous catalysis; Features of homogeneous catalysis; Enzymes. (2L)",
+      "Unit 3: Photochemistry, Kinetics of photophysical and photochemical processes; Impact on: The chemistry of stratospheric ozone; Applications: Impact on environmental sciences, biochemistry, and other areas. (1L)",
+      "Unit 4: Molecular Reaction Dynamics: Reactive encounters; Collision theory; Diffusion-controlled reactions; The material balance equation. (2L)",
+      "Unit 5: Transition state theory; The Eyring equation; Thermodynamic aspects; The dynamics of molecular collisions; Reactive collisions; Potential energy surfaces; Some results from experiments and calculations. (2L)",
+      "Unit 6: The investigation of reaction dynamics with ultrafast laser techniques; Electron transfer in homogeneous systems; The rates of electron transfer processes; Theory of electron transfer processes; Experimental results; Impact on biochemistry: Electron transfer in and between proteins. (2L)",
+      "Unit 7: Special topics (oscillating reactions, etc.)"
+    ],
+    "Generated_LOs": [
+      "CO-1: Analyze empirical rate laws, integrated rate laws, and the temperature dependence of reaction rates for various chemical reactions.",
+      "CO-2: Elucidate complex reaction mechanisms, including chain reactions, polymerization, and homogeneous catalysis, relating them to practical applications.",
+      "CO-3: Evaluate the principles of photochemistry and its applications in environmental science and biochemistry, particularly stratospheric ozone chemistry.",
+      "CO-4: Apply collision theory and transition state theory to interpret and predict the rates and dynamics of molecular reactions based on potential energy surfaces.",
+      "CO-5: Examine the theoretical frameworks and experimental methodologies for understanding electron transfer processes in homogeneous and biological systems.",
+      "CO-6: Investigate the application of ultrafast laser techniques in studying reaction dynamics and electron transfer processes.",
+      "CO-7: Synthesize theoretical concepts to predict reaction rates and analyze mechanisms, connecting fundamental principles to experimental observations and industrial applications."
+    ],
+    "Generation_Method": "Description_Only_v2"
+  },
+  {
+    "Course Title": "Computational Linguistics 2",
+    "Course Code": "CL3.202",
+    "Course Description": "Computational Linguistics 2 delves into advanced aspects of natural language understanding, focusing on semantic and pragmatic analysis. The course comprehensively explores word and sentence meaning, including lexical relations, ambiguity, and formal semantic representations. A significant emphasis is placed on computational pragmatics and discourse analysis, covering context-dependent meaning, conversational structure, coherence, and speaker intention. Topics further extend to knowledge representation, text classification, sentiment analysis, Gricean maxims, and speech act theory. Students will acquire the skills to develop computational resources for contextual text interpretation and apply cutting-edge CL/NLP techniques to real-world dialogue and discourse data, enabling both theoretical research and practical application.",
+    "Detailed Syllabus": [
+      "Unit 1: Background for studying word meaning and sentence meaning, sentence meaning and propositional content; sense and reference; referent, extension, prototype, stereotype; deixis and definiteness; predicates, referring expressions, universe of discourse; properties of sentences analytic, contradiction, entailment; properties of predicates - reflexive, symmetry, transitive. Word meaning and sentence meaning, content word and grammatical word, contextual variation; Speaker meaning vs Sentence meaning. Building resources using Lexical semantic relations Synonymy, Antonymy, Hyponymy, Troponymy, Meronymy; Metaphor and Metonymy; Polysemy and Homonymy; Semantic fields; Lexical ambiguity; Building dictionaries; Ontologies.",
+      "Unit 2: Formal Semantics: Formal representation of natural language semantic features, case frames, semantic primitives. Logic, notation for simple propositions; connectives and, or, but, if etc.; Logical expressions for ambiguous sentences.",
+      "Unit 3: Pragmatics and Discourse: Pragmatics and Discourse analysis as a study of context dependent aspects of meaning; text, co-text, context and relevance. Computational Discourse analysis: Studying Structure of text and coherence; exchange structure and conversational analysis; turn taking; adjacency pairs; preference organization; deixis; anaphora; ellipsis; discourse connectives and relations; Structural analysis of different kinds of texts.",
+      "Unit 4: Text classification and generation: Memory and knowledge representation as schemas - frames, scripts and story grammar; Generation and processing of texts: Sentiment Analysis. Humour Analysis.",
+      "Unit 5: Computational Pragmatics: Language Understanding; Meaning beyond textual context; speaker's intention and hearer's inference; inference bridging inferences, causal and spatial inferences, elaborative and restrictive inferences; Application of pragmatic concepts in Dialogue Systems: conversational implicature, conventional implicature, entailment and presupposition; co-operative interaction and Gricean maxims; speech act theory; language as action, performatives, direct and indirect speech acts and felicity conditions; politeness maxims; Austin and Searle's speech acts; Dialogue data annotation: Dialog Acts, Rhetorical Structure Theory"
+    ],
+    "Generated_LOs": [
+      "CO-1: Analyze the foundational concepts of word and sentence meaning, including sense, reference, and different types of semantic relations and properties.",
+      "CO-2: Apply formal semantic representations and logical notation to model the meaning of natural language sentences, including ambiguous ones.",
+      "CO-3: Evaluate the role of context, relevance, and discourse structure in understanding language, utilizing computational discourse analysis techniques.",
+      "CO-4: Develop computational models for knowledge representation, such as frames and scripts, to facilitate text generation and analysis.",
+      "CO-5: Implement computational pragmatic theories, including Gricean maxims and speech act theory, to interpret speaker intention and handle context-dependent meaning in dialogue systems.",
+      "CO-6: Design and develop computational resources and apply advanced CL/NLP techniques for tasks such as text classification, sentiment analysis, and dialogue systems.",
+      "CO-7: Critically assess the challenges and applications of semantic and pragmatic analysis in real-world natural language understanding scenarios."
+    ],
+    "Generation_Method": "Description_Only_v2"
+  },
+  {
+    "Course Title": "Computer Problem Solving",
+    "Course Code": "CS0.301",
+    "Course Description": "This course introduces fundamental principles of computer problem-solving, emphasizing the C programming language. It covers essential programming concepts including variables, control flow, arrays, functions, and pointers. The curriculum progresses to advanced topics such as memory management, file handling, and the implementation of core data structures like stacks, queues, and linked lists. Students will also explore sorting algorithms and the critical analysis of algorithm complexity. Upon completion, students will be equipped to design and implement robust C programs, effectively manage data, and critically assess the efficiency of computational solutions.",
+    "Detailed Syllabus": [
+      "Unit 1: Basics of C Programming, Variables declaration, Input-Output, Operators.",
+      "Unit 2: Arrays and Strings and Control Statements.",
+      "Unit 3: Functions, Pointers.",
+      "Unit 4: File Handling, Memory management.",
+      "Unit 5: Stacks, queues, Linked Lists.",
+      "Unit 6: Sorting Algorithms.",
+      "Unit 7: Understanding Algorithm Complexity.",
+      "Unit 8: Problem Solving and Computations Thinking"
+    ],
+    "Generated_LOs": [
+      "LO-1: Explain fundamental C programming concepts including variables, data types, operators, and input/output operations.",
+      "LO-2: Implement control flow structures (conditionals, loops) and utilize arrays and strings to solve basic computational problems.",
+      "LO-3: Apply the concepts of functions and pointers to modularize code and manage memory effectively.",
+      "LO-4: Design and implement solutions involving file handling and dynamic memory allocation.",
+      "LO-5: Develop programs that utilize fundamental data structures such as stacks, queues, and linked lists.",
+      "LO-6: Implement and analyze common sorting algorithms and understand the concept of algorithm complexity.",
+      "LO-7: Evaluate computational problems and devise efficient algorithmic solutions using problem-solving and computational thinking strategies."
+    ],
+    "Generation_Method": "Description_Only_v2"
+  },
+  {
+    "Course Title": "Computer Programming",
+    "Course Code": "CS0.101",
+    "Course Description": "This course provides a comprehensive introduction to computer programming, covering foundational concepts from basic computer organization and program execution models to advanced data structures. Students will learn core programming constructs suchases variables, operators, conditionals, loops, functions, and arrays, progressing to dynamic memory management, pointers, and linked lists. The curriculum emphasizes practical skills through exposure to essential development tools for editing, compilation, debugging, and source code management (GIT, GDB, Make). Upon completion, students will be equipped to design, implement, and manage robust computational solutions efficiently and effectively.",
+    "Detailed Syllabus": [
+      "Unit 1: Basic computer organization, Von Neumann architecture and stored program concept; High level programming languages, assemble code, binary instructions, compilers and assemblers; Programming editing, compilation and execution cycle; Use of variables as reference to memory locations; Basic data types and their representation.",
+      "Unit 2: Operators and precedence levels, expressions; Writing straight-line sequence of code; Standard I/O Libraries; Conditional Statements (if-then-else) and Loops (for, while etc.); Arrays.",
+      "Unit 3: Functions and parameter passing mechanisms; Standard libraries for string manipulation, disk file access etc.; Structures, Unions and Enumerations.",
+      "Unit 4: Recursion; Program stack, scope and lifetime of variables; Pointers, heap memory, dynamic memory management, linked lists and memory leaks.",
+      "Unit 5: Preprocessor directives; Source code management tools like GIT and use of GDB for program debugging; Multi-file programming and Make files"
+    ],
+    "Generated_LOs": [
+      "CO-1: Explain the fundamental principles of computer organization, including the Von Neumann architecture and the stored program concept, and differentiate between high-level languages, assembly code, and binary instructions.",
+      "CO-2: Apply core programming constructs, including variables, data types, operators, conditional statements, and loops, to write and execute simple sequential and iterative programs.",
+      "CO-3: Design and implement programs that utilize functions, parameter passing, and standard libraries for string manipulation and file access.",
+      "CO-4: Develop and analyze programs that employ recursion, manage variable scope and lifetime, and implement dynamic memory allocation using pointers and linked lists.",
+      "CO-5: Utilize essential development tools, including editors, compilers, debuggers (GDB), and source code management systems (GIT), to build, test, and maintain multi-file programs.",
+      "CO-6: Evaluate the efficiency and robustness of computational solutions by applying principles of program design, memory management, and debugging techniques."
+    ],
+    "Generation_Method": "Description_Only_v2"
+  },
+  {
+    "Course Title": "Computing in Sciences-1",
+    "Course Code": "SC4.101",
+    "Course Description": "Computing in Sciences-1 introduces fundamental computational methodologies for molecular modeling. The course begins with an exploration of quantum mechanical principles, covering concepts like the Variational Theorem, Density Functional Theory, and basis sets, alongside practical aspects of geometry optimization and frequency calculations. It then transitions to classical molecular mechanics, examining Newtonian equations of motion and the ergodic hypothesis to model molecular dynamics and derive thermodynamic properties. Students will develop familiarity with prepackaged software commonly used in quantum chemistry and molecular dynamics, enabling them to analyze molecular systems and compute essential thermodynamic properties.",
+    "Detailed Syllabus": [
+      "Unit 1: Basic outline of application of quantum mechanics to molecule/s. Variational Theorem, and introduction to density functional theory. Basis sets. Geometry Optimization and Frequency calculation. And other 'simple' properties from output of Quantum Chemistry software.",
+      "Unit 2: Motivation for Classical mechanical models of molecules. Use of Newtonian equations of motion to model dynamics of molecular systems. Motivation for ergodic hypothesis, and calculation of thermodynamic properties"
+    ],
+    "Generated_LOs": [
+      "LO-1: Explain the fundamental principles of quantum mechanics as applied to molecular systems, including the Variational Theorem and the basic concepts of Density Functional Theory.",
+      "LO-2: Describe the role and types of basis sets in quantum mechanical calculations for molecular modeling.",
+      "LO-3: Apply prepackaged quantum chemistry software to perform geometry optimizations and frequency calculations, and interpret the resulting output to determine simple molecular properties.",
+      "LO-4: Justify the use of classical mechanical models for molecular simulations and explain Newtonian equations of motion in the context of molecular dynamics.",
+      "LO-5: Understand the motivation and implications of the ergodic hypothesis in calculating thermodynamic properties from molecular dynamics simulations.",
+      "LO-6: Utilize molecular dynamics software to simulate the behavior of molecular systems and compute key thermodynamic properties."
+    ],
+    "Generation_Method": "gemini-2.5-flash-lite"
+  },
+  {
+    "Course Title": "Data Analytics-I",
+    "Course Code": "CS4.405",
+    "Course Description": "This course provides a foundational understanding of Data Analytics, commencing with data summarization techniques, characterization, discrimination, and data warehousing principles. It systematically explores core algorithms for pattern mining, association rule discovery, and various classification and regression methods. The curriculum further delves into clustering approaches and outlier analysis, concluding with emerging trends. Upon completion, students will be adept at describing, performing, and prescribing suitable data analytics solutions for complex business problems, enabling them to construct improved methods and formulate innovative data-driven services.",
+    "Detailed Syllabus": [
+      "Unit 1: Introduction, data summarization through characterization, discrimination and datawarehousing techniques;",
+      "Unit 2: Concepts and algorithms for mining patterns and associations;",
+      "Unit 3: Concepts and algorithms related to classification and regression;",
+      "Unit 4: Concepts and algorithms for clustering the data;",
+      "Unit 5: Outlier analysis and future trends"
+    ],
+    "Generated_LOs": []
+  },
+  {
+    "Course Title": "Data and Applications [Half]",
+    "Course Code": "CS4.301",
+    "Course Description": "This course provides a foundational understanding of data management principles and their application in modern systems. Students will learn to state data requirements and develop conceptual models using ER diagrams. It delves into the relational data model, covering relational algebra, tuple calculus, and normalization for robust database design. Practical skills are honed through Structured Query Language (SQL), integrity constraints, and database connectivity. The course culminates in designing and implementing applications that effectively interact with relational databases, enabling efficient data access and manipulation.",
+    "Detailed Syllabus": [
+      "Unit 1: Data, Database, Database System;",
+      "Unit 2: Data models, Conceptual Data Modeling, ER Models;",
+      "Unit 3: Relational Data Model, Relational Algebra, Tuple Relational Calculus;",
+      "Unit 4: SQL, Constraints, Triggers, Database Connectivity, Applications;",
+      "Unit 5: Normalization, Relational Database Design"
+    ],
+    "Generated_LOs": []
+  },
+  {
+    "Course Title": "Data Structures & Algorithms for Problem Solving",
+    "Course Code": "CS1.304",
+    "Course Description": "This course delves into fundamental and advanced data structures and algorithms, emphasizing their critical role in efficient problem-solving. It systematically covers core data types like linked lists, stacks, queues, trees, and graphs, alongside essential algorithmic techniques such as recursion, dynamic programming, searching, and traversal. Further exploration includes specialized structures like hash tables, tries, and heaps, integrating analysis of algorithmic complexity and correctness proofs. This comprehensive foundation equips students to analyze real-world problems, select optimal data structures and algorithms, and implement robust, efficient solutions.",
+    "Detailed Syllabus": [
+      "Unit 1: Review of basic data structures and algorithms (Linked list, stack, queue, 2D arrays, dynamic programming, recursion etc.).",
+      "Unit 2: Algorithms on Trees and Graphs (Binary Search Tree, AVL Tree, Heaps, Graph Traversal, shortest path algorithms etc.).",
+      "Unit 3: Problem solving with other data structures and algorithms (Hashing, Tries, Splay Trees, Range Trees, sorting etc.)"
+    ],
+    "Generated_LOs": []
+  },
+  {
+    "Course Title": "Deep Learning: Theory and Practices",
+    "Course Code": "CS7.601",
+    "Course Description": "This course provides a comprehensive exploration of deep learning, covering its theoretical foundations and practical applications. It begins with feedforward neural networks, backpropagation, and optimization techniques, addressing critical aspects like bias-variance trade-off and regularization. The curriculum delves into key architectures including auto-encoders, convolutional and recurrent neural networks (LSTMs/GRUs), culminating in modern paradigms like Transformers, Generative Adversarial Networks, Diffusion Models, and Graph Neural Networks. Students will develop the expertise to design, implement, and critically evaluate advanced neural network solutions.",
+    "Detailed Syllabus": [
+      "This course covers fundamentals of Deep Learning including: Feedforward neural networks, back propagation, optimization methods; Bias variance tradeoff, regularization techniques; Auto-encoders, VAES, Word2vec; Convolutional neural networks (CNNs) and architectures; Recurrent neural networks (RNNs), LSTM, GRU; Encoder Decoder Models, Attention Mechanism, Transformers, GANs, Diffusion Models, Graph Neural Networks"
+    ],
+    "Generated_LOs": []
+  },
+  {
+    "Course Title": "Design for Social Innovation",
+    "Course Code": "CS9.429",
+    "Course Description": "This course focuses on leveraging design thinking and emerging technologies to address critical social challenges. Students engage in deep social immersion, identifying grassroots problems and collaborating with changemakers and social organizations. The curriculum progresses through problem definition, ideation, and the design of technology components, culminating in the development and deployment of innovative solutions. Participants will gain practical frameworks and tools to conceptualize, design, and implement impactful technology-led interventions, inspiring future social enterprises.",
+    "Detailed Syllabus": [
+      "MODULE [I] Social Immersion: What Is Social Innovation; Interaction With Leading Changemakers; Identifying Core Developmental Sectors [Agri, Fintech, Healthcare, Edu etc] & Field Visits.",
+      "MODULE [II] Societal Challenge Identification: Deep Dive into Defining the Problem; Market Research/Competitive Landscape; Circular Validation from Stakeholders [Organizations/Customers/End Users]. MO [IIDULEI] Design for Change: Ideation/Design Thinking on Problem Breakdown; Build An SRS Document; Identify Technology Components for Social Innovation; Project Design & Execution Plan.",
+      "MODULE [IV] Technology for Social Innovation: Updates On Building the Technology; Examples of technology used in social innovation; Teams to build in the use of emerging technology/research. Finale: Hackathon #4: Final hackathon. Complete the solution; Deploy Solution in Stakeholder/End User Environment. Measure Impact"
+    ],
+    "Generated_LOs": []
+  },
+  {
+    "Course Title": "Design for Testability",
+    "Course Code": "EC2.407",
+    "Course Description": "This course explores the essential principles and practices of Design for Testability (DFT) in VLSI circuit design. It covers fundamental concepts of testing, including fault modeling, fault simulation, and automatic test pattern generation (ATPG). Students will delve into various DFT methodologies, such as scan architectures and boundary scan, crucial for enhancing the testability of combinational and sequential CMOS circuits. The curriculum also examines Built-in Self-Test (BIST) techniques and architectures, alongside challenges in testing analog, mixed-signal, and System-on-Chip designs. This equips students to address semiconductor circuit testing issues early, thereby reducing production costs and improving product yield.",
+    "Detailed Syllabus": [
+      "1) Introduction: Role of testing in VLSI design flow, testing at different levels of abstraction, automatic test equipment.",
+      "2) Faults and fault modeling, detection of faults, fault simulation and its applications, test pattern generation, automatic testing procedures.",
+      "3) Design for testability: Various features incorporated for carrying out testing from input & output pins, scan architecture, test interface and boundary scan.",
+      "4) Built-in Self-Test (BIST), BIST concepts, test pattern generation, BIST architectures.",
+      "5) Testing of Analog and mixed signal ICs, testing of system on chip"
+    ],
+    "Generated_LOs": []
+  },
+  {
+    "Course Title": "Design Thinking 101 - Research to Define",
+    "Course Code": "PD1.301",
+    "Course Description": "This course introduces Design Thinking as a human-centered approach to creative problem-solving and innovation. Students will first explore foundational design concepts and the core principles of Design Thinking, including its role in new product development. The curriculum deepens into the Discovery phase, focusing on methods for user research, empathy, and understanding user and business contexts. Subsequently, the Define phase covers data analysis, synthesis, and insight generation to formulate actionable problem statements. Practical application of tools for user personas, journey mapping, and stakeholder mapping equips students to advocate for end-users and integrate design thinking within product lifecycle management.",
+    "Detailed Syllabus": [
+      "UNIT 1. UNLEARNING: Initial part of the course will emphasize on unlearning and to cultivate a knack for design thinking, and creative problem solving.",
+      "UNIT 2. UNDERSTANDING DESIGN AND DESIGN DOMAIN: Understanding Design; Role & Functions of design and designers; Design Elements; Understanding Design Domains and perspectives.",
+      "UNIT 3. INTRODUCTION TO DESIGN THINKING: What is Design Thinking?; Why Design Thinking?; Design Thinking approach in new product development & innovative solutions.",
+      "UNIT 4. DESIGN THINKING PROCESS: Design Thinking Process - human-focused, empathy, research, ideation and prototype-driven, innovative design approach; User-Centred Design / Double Diamond Process; Introduce/Initiate Design Thinking Pilot Project.",
+      "UNIT 5. DISCOVERY PHASE: What is Discovery and Validation phase and why?; Understanding User Context? - Why & How to Empathies?; Understanding the User Needs and Goals; Understanding Business Goals; Tools and Methods and Deliverables.",
+      "UNIT 6. DEFINE PHASE: Analysis and Synthesis of Data and Information; Driving Insights (both user and business) and solution directions; Tools and Deliverables of the Define phase.",
+      "UNIT 7. DRIVING ACTIONABLE BRIEF: Through the process of analysis and synthesis, identifying user-business insights, arriving at an actional brief in form of HMW statement; Debriefing and briefing on upcoming course"
+    ],
+    "Generated_LOs": []
+  },
+  {
+    "Course Title": "Design Thinking - Idea to Evaluate/Implement",
+    "Course Code": "PD1.401",
+    "Course Description": "This course systematically explores Design Thinking as a human-centered approach to innovation and problem-solving. Students will learn methods for empathic user research, creative ideation, and structured prototyping, moving from initial concept generation to tangible solutions. The curriculum emphasizes iterative user testing and validation processes to refine designs, alongside practical skills in documenting and presenting key deliverables. Upon completion, learners will possess the ability to collaborate effectively in co-creating and integrating robust design solutions within the broader product development and management lifecycle.",
+    "Detailed Syllabus": [
+      "UNIT 1. REVIST THE PREVIOUS LEARNINGS AND ACTIONABLE BRIEF: Revise the understandings and learnings of the earlier course. Revisit and deliberate on the actionable brief and tweak the same if needed. The process of divergence and convergence.",
+      "UNIT 2. IDEATION (DIVERGENCE) PHASE: Power and Value of Ideation process; Process and techniques of Ideation to generate many ideas. Case study.",
+      "UNIT 3. PROTOTYPING (DIVERGENCE) PHASE: Why prototyping?; Types of Prototypes - Low fidelity & high fidelity; Creation of prototypes. Case study.",
+      "UNIT 4. USER TESTING AND VALIDATION: Why Test?; Types of user testing and evaluation; Process of user testing/validation using prototypes.",
+      "UNIT 5. PROJECT WORK- IDEA GENERATION FOR THE PROJECT WORK: This week will be dedicated to a generation of ideas against the actionable brief.",
+      "UNIT 6. PROJECT WORK - PROTOTYPE CREATION AND TESTING: Students will be required to develop several prototypes based on the ideas generated during the ideation phase and validate the ideas.",
+      "UNIT 7. PROJECT WORK - TWEAKING IDEAS AND FINANLISING THE SOLUTION: Tweaking the ideas and further development of the same. Final presentation of the work"
+    ],
+    "Generated_LOs": []
+  },
+  {
+    "Course Title": "Digital Image Processing",
+    "Course Code": "CS7.404",
+    "Course Description": "This course delves into the foundational principles and practical techniques of Digital Image Processing. It covers digital image fundamentals, enhancing subjective perception, and various filtering methods in both spatial and transform domains. Students will explore morphological and geometric transformations, color image processing, and advanced approaches including segmentation, restoration, and compression. The course equips learners with the skills to analyze, manipulate, and enhance digital images for diverse applications.",
+    "Detailed Syllabus": [
+      "Unit 1: Introduction and Digital Image Fundamentals;",
+      "Unit 2: Methods for Improving Subjective Perception of Images;",
+      "Unit 3: Spatial and Transform Domain Image Processing;",
+      "Unit 4: Morphological and Geometric Image Processing;",
+      "Unit 5: Color Image Processing;",
+      "Unit 6: High-level Image Processing and Advanced Approaches"
+    ],
+    "Generated_LOs": []
+  }
+]
