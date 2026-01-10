@@ -1,0 +1,20 @@
+{
+  "course_title": "Advanced Operating Systems",
+  "course_code": "CS3.304",
+  "metadata": {
+    "source": "Lecture slide decks",
+    "folder": "../raw-data/osn_lecs",
+    "extraction_method": "Single API call with slide text",
+    "total_chars_processed": 47811,
+    "generation_method": "Direct LO generation from slides (similar to Iteration 1)"
+  },
+  "learning_objectives": [
+    "CO-1: Explain the fundamental concepts of an operating system, including its dual roles (resource management and hardware abstraction), the three core pillars (virtualization, concurrency, persistence), and key design goals (abstraction, performance, reliability).",
+    "CO-2: Describe the lifecycle of a process, detailing its constituent components (memory image, CPU context, file descriptors) and distinct states (running, ready, blocked), along with the mechanisms for process creation and termination.",
+    "CO-3: Analyze the role of system calls and privileged execution modes (user and kernel) in enabling secure and controlled interaction between user programs and system hardware, utilizing concepts like Limited Direct Execution (LDE) and TRAP instructions.",
+    "CO-4: Implement fundamental process management operations using POSIX system calls such as fork(), exec(), and wait() to create, execute, and synchronize child processes.",
+    "CO-5: Evaluate and compare various CPU scheduling algorithms (e.g., FCFS, SJF, STCF, Round Robin) based on key performance metrics such as turnaround time and response time, considering the impact of I/O operations and context switching overhead.",
+    "CO-6: Design and justify adaptive scheduling policies for dynamic workloads using Multi-Level Feedback Queues (MLFQ), addressing challenges like starvation and scheduler gaming through mechanisms such as priority boosting and explicit accountability rules.",
+    "CO-7: Analyze the fundamental principles and components of computer networks (e.g., subnets, routers, TCP/IP, sockets, DNS) that facilitate communication between processes residing on different machines."
+  ]
+}

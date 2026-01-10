@@ -3,3 +3,4 @@ src/venv/
 __pycache__/
 src/.env/
 src/.env
+osn_lecs/
