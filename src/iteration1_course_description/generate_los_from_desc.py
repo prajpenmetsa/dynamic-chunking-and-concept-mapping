@@ -17,7 +17,7 @@ if not API_KEY:
 INPUT_FILE = '../datasets/iiit_courses_without_los_iteration_1.json'
 OUTPUT_FILE = '../datasets/iiit_courses_generated_los_iteration_1.json'
 
-MODEL_NAME = "meta-llama/Meta-Llama-3-70B-Instruct"
+MODEL_NAME = "gemini-2.5-lite"
 
 def create_prompt(course_title, description, syllabus):
     return f"""You are an expert Educational Curriculum Designer.

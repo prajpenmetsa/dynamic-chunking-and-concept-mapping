@@ -20,10 +20,10 @@ if not API_KEY:
 
 genai.configure(api_key=API_KEY)
 
-SLIDE_DECKS_FOLDER = "../raw-data/osn_lecs"
+SLIDE_DECKS_FOLDER = "../../raw-data/osn_lecs"
 COURSE_TITLE = "Advanced Operating Systems"
 COURSE_CODE = "CS3.304"
-OUTPUT_FILE = "../datasets/slide_based_los_simple.json"
+OUTPUT_FILE = "../../datasets/slide_based_los_simple.json"
 
 # Use model with highest free tier quota
 MODEL_NAME = "gemini-2.5-flash"
