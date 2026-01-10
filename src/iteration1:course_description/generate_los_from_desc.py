@@ -1,42 +1,42 @@
 import json
 import time
 import os
-import google.generativeai as genai
+import re
+from huggingface_hub import InferenceClient
 from tqdm import tqdm
 from dotenv import load_dotenv
 
 # 1. Load Environment Variables
 load_dotenv()
-API_KEY = os.getenv("GEMINI_API_KEY")
+API_KEY = os.getenv("HUGGINGFACE_API_KEY")
 
 if not API_KEY:
-    raise ValueError("API Key not found! Please check your .env file.")
-
-genai.configure(api_key=API_KEY)
+    raise ValueError("Hugging Face API Key not found! Please check your .env file.")
 
 # --- CONFIGURATION ---
 INPUT_FILE = '../datasets/iiit_courses_without_los_iteration_1.json'
 OUTPUT_FILE = '../datasets/iiit_courses_generated_los_iteration_1.json'
 
-MODEL_NAME = "gemini-2.5-flash-lite" 
+MODEL_NAME = "meta-llama/Meta-Llama-3-70B-Instruct"
 
 def create_prompt(course_title, description, syllabus):
-    return f"""
-    You are an expert Educational Curriculum Designer.
-    
-    Task: Create a set of 5-7 Learning Outcomes (LOs) for this university course.
-    
-    Input Data:
-    - Course Title: {course_title}
-    - Description: {description}
-    - Syllabus Topics: {json.dumps(syllabus)}
+    return f"""You are an expert Educational Curriculum Designer.
 
-    Constraints:
-    1. Output MUST be a raw JSON list of strings. 
-    2. Example format: ["CO-1: Analyze...", "CO-2: Design...", "CO-3: Evaluate..."]
-    3. Use Bloom's Taxonomy action verbs.
-    4. No markdown formatting (no ```json), just the list.
-    """
+Task: Create a set of 5-7 Learning Outcomes (LOs) for a university course.
+
+Input Data:
+- Course Title: {course_title}
+- Description: {description}
+- Syllabus Topics: {json.dumps(syllabus)}
+
+Constraints:
+1. Output MUST be a raw JSON list of strings. 
+2. Format: ["CO1: ...", "CO2: ...", "CO3: ..."]
+3. Use Bloom's Taxonomy action verbs (Demonstrate, Analyze, Design, Develop, Apply, Evaluate, Create, etc.).
+4. Each LO should be specific, measurable, and aligned with the course content.
+5. No markdown formatting (no ```json), just the list.
+
+Respond with ONLY the JSON list, nothing else."""
 
 def load_existing_progress():
     """Checks if output file exists and loads it to resume progress."""
@@ -68,11 +68,8 @@ def generate_learning_objectives():
     print(f"Remaining: {len(courses_to_process)}")
     print(f"Using Model: {MODEL_NAME}")
 
-    # 3. Configure Model for JSON Mode (Crucial for formatting!)
-    model = genai.GenerativeModel(
-        MODEL_NAME,
-        generation_config={"response_mime_type": "application/json"} 
-    )
+    # 3. Initialize Hugging Face Inference Client
+    client = InferenceClient(api_key=API_KEY)
     
     # 4. Processing Loop
     results = processed_courses # Start with what we already have
@@ -90,14 +87,30 @@ def generate_learning_objectives():
         prompt = create_prompt(title, desc, syllabus)
         
         try:
-            response = model.generate_content(prompt)
+            # Call Hugging Face Inference API
+            messages = [
+                {"role": "user", "content": prompt}
+            ]
             
-            # PARSING LOGIC: Convert string to real JSON list
-            # Since we enforced JSON mode in config, this is safer
-            generated_los = json.loads(response.text)
+            response = client.chat.completions.create(
+                model=MODEL_NAME,
+                messages=messages,
+                max_tokens=4096,
+                temperature=0.7
+            )
+            
+            response_text = response.choices[0].message.content.strip()
+            
+            # Extract JSON from response (handle markdown code blocks if present)
+            json_match = re.search(r'\[.*\]', response_text, re.DOTALL)
+            if json_match:
+                json_str = json_match.group(0)
+                generated_los = json.loads(json_str)
+            else:
+                generated_los = json.loads(response_text)
             
             course["Generated_LOs"] = generated_los
-            course["Generation_Method"] = "Description_Only_v2"
+            course["Generation_Method"] = "Llama3_70B_ZeroShot_v1"
             
         except Exception as e:
             print(f"Error for {title}: {e}")

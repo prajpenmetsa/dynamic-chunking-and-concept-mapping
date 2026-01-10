@@ -1,0 +1,116 @@
+course,level,complexity,higher_order_count,total_los,avg_complexity
+Advanced Computer Architecture,"{'Understand': 2, 'Analyze': 2}",3.0,2,4,3.0
+Advanced Computer Networks,"{'Understand': 2, 'Create': 2, 'Apply': 1, 'Analyze': 1}",3.8333333333333335,4,6,3.83
+Advanced Natural Language Processing (NLP),"{'Understand': 4, 'Apply': 2}",2.3333333333333335,2,6,2.33
+Advanced Operating Systems,"{'Understand': 3, 'Apply': 1, 'Create': 1, 'Analyze': 1}",3.1666666666666665,3,6,3.17
+Algorithm Analysis and Design,"{'Understand': 3, 'Apply': 1}",2.25,1,4,2.25
+Algorithms and Operating Systems,"{'Apply': 3, 'Understand': 1, 'Analyze': 1, 'Evaluate': 1}",3.3333333333333335,5,6,3.33
+Applied Ethics,"{'Understand': 3, 'Analyze': 1, 'Apply': 1, 'Create': 1}",3.1666666666666665,3,6,3.17
+Automata Theory,"{'Understand': 2, 'Apply': 1, 'Analyze': 1}",2.75,2,4,2.75
+Basics of Ethics,"{'Understand': 3, 'Analyze': 1, 'Apply': 1, 'Create': 1}",3.1666666666666665,3,6,3.17
+Behavioral Research: Experimental Design,"{'Apply': 2, 'Understand': 1, 'Remember': 1, 'Evaluate': 1, 'Create': 1}",3.3333333333333335,4,6,3.33
+Bio-instrumentation and Devices,"{'Understand': 3, 'Apply': 1, 'Analyze': 1}",2.6,2,5,2.6
+Bioinformatics,"{'Apply': 2, 'Understand': 1}",2.6666666666666665,2,3,2.67
+Biomolecular Structure Interactions and Dynamics,"{'Understand': 3, 'Remember': 2, 'Apply': 1}",1.8333333333333333,1,6,1.83
+Blockchain and Web3 Development,"{'Understand': 3, 'Apply': 1, 'Analyze': 1}",2.6,2,5,2.6
+Business Fundamentals,"{'Understand': 3, 'Apply': 2}",2.4,2,5,2.4
+Chemical Kinetics and Reaction Dynamics,"{'Apply': 4, 'Understand': 3, 'Analyze': 1}",2.75,5,8,2.75
+Chemistry Topics for Engineers,"{'Understand': 4, 'Apply': 1, 'Remember': 1}",2.0,1,6,2.0
+Computational Linguistics 2,"{'Apply': 3, 'Create': 2}",4.2,5,5,4.2
+Computer Problem Solving,"{'Apply': 2, 'Understand': 1, 'Analyze': 1}",3.0,3,4,3.0
+Computer Programming,"{'Apply': 4, 'Understand': 2, 'Analyze': 1, 'Evaluate': 1}",3.125,6,8,3.12
+Computing in Sciences-1,"{'Apply': 2, 'Understand': 1}",2.6666666666666665,2,3,2.67
+Data Analytics-I,"{'Create': 2, 'Understand': 1, 'Apply': 1, 'Evaluate': 1}",4.4,4,5,4.4
+Data Structures & Algorithms for Problem Solving,"{'Understand': 2, 'Apply': 2, 'Create': 1, 'Analyze': 1}",3.3333333333333335,4,6,3.33
+Data and Applications [Half],"{'Apply': 4, 'Remember': 1, 'Understand': 1}",2.5,4,6,2.5
+Deep Learning: Theory and Practices,"{'Understand': 4, 'Remember': 3}",1.5714285714285714,0,7,1.57
+Design Thinking - Idea to Evaluate/Implement,"{'Understand': 2, 'Apply': 2, 'Create': 1}",3.2,3,5,3.2
+Design Thinking 101 - Research to Define,"{'Understand': 2, 'Apply': 2, 'Create': 1}",3.2,3,5,3.2
+Design for Social Innovation,"{'Understand': 5, 'Apply': 1, 'Create': 1}",2.7142857142857144,2,7,2.71
+Design for Testability,"{'Apply': 4, 'Understand': 1}",2.8,4,5,2.8
+Digital Image Processing,"{'Apply': 5, 'Remember': 1}",2.6666666666666665,5,6,2.67
+Digital Systems and Microcontrollers (DSM),"{'Apply': 4, 'Analyze': 1, 'Understand': 1}",3.0,5,6,3.0
+Digital VLSI Design,"{'Apply': 2, 'Create': 2, 'Understand': 1, 'Analyze': 1}",4.0,5,6,4.0
+Discrete Structures,"{'Apply': 4, 'Analyze': 1, 'Evaluate': 1}",3.5,6,6,3.5
+Distributed Systems,"{'Understand': 3, 'Apply': 1, 'Analyze': 1, 'Evaluate': 1}",3.0,3,6,3.0
+Earthquake Resistant Design of Masonry Structures,"{'Understand': 2, 'Remember': 1, 'Analyze': 1, 'Create': 1}",3.0,2,5,3.0
+Electronic Workshop-1,"{'Apply': 4, 'Analyze': 1}",3.2,5,5,3.2
+Embedded Systems Workshop,"{'Analyze': 3, 'Create': 2, 'Evaluate': 1, 'Understand': 1, 'Apply': 1}",4.25,7,8,4.25
+Entropy and Information,"{'Apply': 2, 'Create': 2, 'Understand': 1}",4.0,4,5,4.0
+Environmental Science and Technology,"{'Understand': 4, 'Evaluate': 1, 'Apply': 1}",2.6666666666666665,2,6,2.67
+"Fairness, Privacy and Ethics in Al","{'Understand': 3, 'Create': 2, 'Apply': 1}",3.5,3,6,3.5
+Finite Element Method,"{'Apply': 3, 'Understand': 1, 'Analyze': 1}",3.0,4,5,3.0
+Foundations for Signal Processing and Communication,"{'Apply': 2, 'Understand': 1, 'Create': 1}",3.5,3,4,3.5
+Gender and Society,"{'Understand': 3, 'Analyze': 2}",2.8,2,5,2.8
+Geospatial Technology for Disaster Risk Modelling,"{'Understand': 2, 'Apply': 2, 'Analyze': 1}",2.8,3,5,2.8
+Human Sciences Lab,"{'Analyze': 2, 'Understand': 1}",3.3333333333333335,2,3,3.33
+Human-Computer Interaction,"{'Understand': 3, 'Apply': 2}",2.4,2,5,2.4
+Hydrological Modeling and Software Development,"{'Apply': 3, 'Understand': 1, 'Create': 1, 'Analyze': 1}",3.5,5,6,3.5
+Information Retrieval and Extraction,"{'Apply': 3, 'Create': 2}",4.2,5,5,4.2
+Information Theory,"{'Apply': 3, 'Understand': 2, 'Analyze': 1}",2.8333333333333335,4,6,2.83
+Intro to Cognitive Science,"{'Evaluate': 2, 'Understand': 1, 'Analyze': 1, 'Create': 1}",4.4,4,5,4.4
+Introduction to Biology,"{'Understand': 4, 'Apply': 1, 'Analyze': 1, 'Evaluate': 1}",2.857142857142857,3,7,2.86
+Introduction to Economics,"{'Understand': 3, 'Remember': 1, 'Analyze': 1}",2.2,1,5,2.2
+Introduction to Film Studies,{'Understand': 5},2.0,0,5,2.0
+Introduction to History,"{'Understand': 2, 'Evaluate': 2, 'Analyze': 1, 'Create': 1}",4.0,4,6,4.0
+Introduction to Linguistics 1,"{'Understand': 2, 'Remember': 1, 'Apply': 1, 'Analyze': 1}",2.4,2,5,2.4
+Introduction to Neural and Cognitive Modeling,"{'Analyze': 2, 'Create': 2, 'Understand': 1, 'Evaluate': 1}",4.5,5,6,4.5
+Introduction to Philosophy,"{'Understand': 2, 'Analyze': 2, 'Evaluate': 1}",3.4,3,5,3.4
+Introduction to Politics,"{'Understand': 2, 'Evaluate': 2, 'Analyze': 1, 'Create': 1}",4.0,4,6,4.0
+Introduction to Psychology,"{'Apply': 4, 'Evaluate': 1}",3.4,5,5,3.4
+Introduction to Quantum Field Theory,"{'Understand': 4, 'Apply': 2}",2.3333333333333335,2,6,2.33
+Introduction to Remote Sensing,"{'Understand': 4, 'Apply': 2}",2.3333333333333335,2,6,2.33
+IoT Workshop,"{'Understand': 3, 'Analyze': 1, 'Apply': 1, 'Remember': 1, 'Evaluate': 1, 'Create': 1}",3.125,4,8,3.12
+Language and Society,"{'Understand': 3, 'Analyze': 1, 'Create': 1, 'Apply': 1}",3.1666666666666665,3,6,3.17
+Learning and Memory,"{'Understand': 1, 'Apply': 1, 'Analyze': 1, 'Evaluate': 1, 'Create': 1}",4.0,4,5,4.0
+MCS 1 – Probability and Statistics,"{'Understand': 2, 'Apply': 2, 'Create': 1}",3.2,3,5,3.2
+MCS 2 - Linear Algebra,"{'Create': 3, 'Understand': 2, 'Apply': 1}",4.166666666666667,4,6,4.17
+Mobile Robotics,"{'Understand': 2, 'Analyze': 1, 'Apply': 1, 'Create': 1}",3.4,3,5,3.4
+Modern Coding Theory,"{'Apply': 3, 'Remember': 1, 'Understand': 1}",2.4,3,5,2.4
+Modern Complexity Theory,"{'Understand': 2, 'Apply': 2, 'Create': 2}",3.6666666666666665,4,6,3.67
+Music Workshop,"{'Understand': 3, 'Create': 2}",3.6,2,5,3.6
+"Network, Signals & Systems","{'Apply': 5, 'Remember': 2, 'Understand': 2, 'Analyze': 1}",2.5,6,10,2.5
+Open Quantum systems and Quantum Thermodynamics,"{'Understand': 3, 'Remember': 1, 'Apply': 1}",2.0,1,5,2.0
+Operating Systems and Networks,"{'Apply': 3, 'Create': 2}",4.2,5,5,4.2
+Physics of Early Universe,"{'Understand': 2, 'Apply': 1, 'Create': 1, 'Remember': 1}",2.8,2,5,2.8
+Principles of Programming Languages (PoPL),"{'Create': 2, 'Evaluate': 1, 'Analyze': 1, 'Apply': 1}",4.8,5,5,4.8
+Principles of Semiconductor Devices,"{'Understand': 2, 'Apply': 1, 'Create': 1}",3.25,2,4,3.25
+Probability and Random Processes,"{'Understand': 3, 'Apply': 1, 'Analyze': 1, 'Evaluate': 1}",3.0,3,6,3.0
+Probability and Statistics,"{'Understand': 3, 'Apply': 3}",2.5,3,6,2.5
+Product Management 101,"{'Understand': 2, 'Create': 2, 'Apply': 1}",3.8,3,5,3.8
+Product Marketing,"{'Understand': 3, 'Apply': 1}",2.25,1,4,2.25
+Quantum Information Theory,"{'Understand': 2, 'Analyze': 2, 'Apply': 1}",3.0,3,5,3.0
+Quantum Mechanics,"{'Understand': 3, 'Apply': 2}",2.4,2,5,2.4
+Readings from Hindi Literature,"{'Understand': 4, 'Analyze': 1}",2.4,1,5,2.4
+Real Analysis,"{'Apply': 3, 'Understand': 2, 'Analyze': 1}",2.8333333333333335,4,6,2.83
+Real-Time Embedded Systems,"{'Analyze': 3, 'Understand': 1, 'Apply': 1, 'Evaluate': 1, 'Create': 1}",4.0,6,7,4.0
+Research in Information Security,"{'Apply': 3, 'Analyze': 1, 'Understand': 1}",3.0,4,5,3.0
+Retrofit of Existing Infrastructure,"{'Apply': 2, 'Understand': 1, 'Create': 1, 'Evaluate': 1}",3.8,4,5,3.8
+Robotics: Dynamics and Control,"{'Understand': 2, 'Analyze': 2, 'Apply': 1}",3.0,3,5,3.0
+Science I,"{'Apply': 3, 'Analyze': 2, 'Understand': 1, 'Remember': 1}",2.857142857142857,5,7,2.86
+Science Lab -I,{'Apply': 3},3.0,3,3,3.0
+Signal Detection and Estimation Theory,"{'Understand': 2, 'Analyze': 2, 'Apply': 2}",3.0,4,6,3.0
+Signal Processing,"{'Analyze': 3, 'Apply': 2, 'Understand': 1, 'Create': 1}",3.7142857142857144,6,7,3.71
+Software Quality Engineering,"{'Apply': 2, 'Understand': 1, 'Evaluate': 1, 'Create': 1}",3.8,4,5,3.8
+Software Systems Development,"{'Apply': 4, 'Understand': 1, 'Evaluate': 1}",3.1666666666666665,5,6,3.17
+Spatial Informatics,"{'Understand': 1, 'Apply': 1, 'Analyze': 1, 'Evaluate': 1, 'Create': 1}",4.0,4,5,4.0
+Spatial Thinking and Practice,"{'Understand': 4, 'Apply': 1, 'Evaluate': 1}",2.6666666666666665,2,6,2.67
+Spectroscopy,"{'Apply': 2, 'Understand': 1, 'Analyze': 1}",3.0,3,4,3.0
+Speech Analysis and Linguistics (SAL),"{'Understand': 2, 'Analyze': 2, 'Apply': 1, 'Create': 1}",3.5,4,6,3.5
+Speech Signal Processing,"{'Understand': 2, 'Analyze': 2, 'Apply': 1, 'Create': 1}",3.5,4,6,3.5
+Statistical Methods in Artificial Intelligence,"{'Apply': 3, 'Understand': 3}",2.5,3,6,2.5
+Structural Dynamics,"{'Understand': 2, 'Apply': 2, 'Create': 1, 'Analyze': 1}",3.3333333333333335,4,6,3.33
+Structural Engineering Design Studio,"{'Create': 2, 'Apply': 1, 'Analyze': 1, 'Understand': 1}",4.2,4,5,4.2
+Structural Safety of Built Infrastructure,"{'Apply': 3, 'Evaluate': 2}",3.8,5,5,3.8
+Systems Biology,"{'Analyze': 2, 'Understand': 1}",3.3333333333333335,2,3,3.33
+Systems Thinking,"{'Apply': 2, 'Analyze': 2, 'Create': 1, 'Understand': 1}",3.6666666666666665,5,6,3.67
+The Making of Contemporary India,"{'Understand': 2, 'Evaluate': 1, 'Apply': 1, 'Create': 1}",3.6,3,5,3.6
+Theory of Elasticity,"{'Understand': 2, 'Apply': 2, 'Analyze': 1, 'Create': 1}",3.3333333333333335,4,6,3.33
+Thinking and Knowing in the Human Sciences – II,"{'Understand': 4, 'Apply': 1}",2.2,1,5,2.2
+Topics in Applied Optimization,"{'Apply': 3, 'Understand': 1, 'Evaluate': 1}",3.2,4,5,3.2
+Topics in Nanosciences,"{'Understand': 6, 'Remember': 1, 'Apply': 1, 'Analyze': 1}",2.2222222222222223,2,9,2.22
+User Research Methods,"{'Apply': 2, 'Evaluate': 1, 'Analyze': 1, 'Create': 1}",4.2,5,5,4.2
+VALUE EDUCATION – I,"{'Apply': 2, 'Understand': 2, 'Create': 1}",3.2,3,5,3.2
+VLSI Design,"{'Create': 3, 'Apply': 2, 'Analyze': 1}",4.666666666666667,6,6,4.67
+Wireless Communications,"{'Understand': 3, 'Apply': 1, 'Analyze': 1, 'Evaluate': 1}",3.0,3,6,3.0
+"Work, Entrepreneurship and Technology in Contemporary Societies.","{'Understand': 3, 'Analyze': 2, 'Evaluate': 1}",3.1666666666666665,3,6,3.17
