@@ -1,0 +1,23 @@
+Models
+1. Gemini 2.0 Flash — Primary Judge
+Provider: Google AI Studio
+Free tier: Yes — very generous, 1500 requests/day free
+Why:
+
+Exceptionally strong at following complex rubrics with structured outputs
+Long context window means you can pass the entire rubric + LO without truncation concerns
+Fast — critical when you're doing 3 runs × N LOs × 3 frameworks
+Well-represented in recent evaluation literature so reviewers will recognize it
+Google AI Studio requires no billing setup, making it easy for the whole team
+
+
+2. Llama 3.3 70B via Groq — Open-Source Counterpart
+Provider: Groq
+Free tier: Yes — generous rate limits, extremely fast inference
+Why:
+
+Using an open-source model alongside a proprietary one is methodologically important for a research paper — it makes your pipeline reproducible by others who can't access proprietary APIs
+Llama 3.3 70B punches well above its weight on instruction-following tasks, close to GPT-4 class on many benchmarks
+Groq's inference is orders of magnitude faster than most — consistency runs won't bottleneck you
+Being open-weights means you can cite the model card precisely, which reviewers appreciate
+If your scores from Gemini and Llama 3.3 agree → strong validation. If they don't → that disagreement is itself a finding worth discussing

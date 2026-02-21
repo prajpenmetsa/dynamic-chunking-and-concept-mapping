@@ -1,0 +1,68 @@
+{
+  "instructions": "Manually score 5-10 learning objectives using the rubrics in RUBRIC_REFERENCE.md. Then run calibration_analysis.py to compare with LLM scores.",
+  "calibration_set": [
+    {
+      "lo_id": "ABCD_LO_1",
+      "framework": "ABCD",
+      "learning_objective": "Students will analyze the trade-offs between different process scheduling algorithms in terms of throughput, fairness, and response time.",
+      "human_scores": {
+        "audience": 5,
+        "behavior": 4,
+        "condition": 3,
+        "degree": 2
+      },
+      "human_composite": 3.5,
+      "human_notes": "Clear audience ('Students') and good verb ('analyze'). Context is implicit (scheduling algorithms) but not explicitly stated. No performance standard - doesn't say how many algorithms, what level of comparison, etc. Missing: 'Given 3 scheduling scenarios' (condition) and 'identifying at least 2 trade-offs per algorithm' (degree).",
+      "scoring_rationale": {
+        "audience": "Explicitly states 'Students will' - perfect",
+        "behavior": "'Analyze' is observable and measurable, Bloom's level appropriate",
+        "condition": "Scheduling algorithms are mentioned but context unclear - when? how?",
+        "degree": "No standard: how many algorithms? how deep? what constitutes good analysis?"
+      }
+    },
+    {
+      "lo_id": "SMART_LO_2",
+      "framework": "SMART",
+      "learning_objective": "Implement at least three different synchronization mechanisms (semaphores, monitors, and condition variables) to solve producer-consumer problems.",
+      "human_scores": {
+        "specific": 5,
+        "measurable": 5,
+        "achievable": 4,
+        "relevant": 5,
+        "time_bound": 4
+      },
+      "human_composite": 4.6,
+      "human_notes": "Excellent specificity - names exact mechanisms and problem type. Highly measurable - can grade implementation objectively. Achievable for graduate OS course in one semester. Directly relevant to synchronization unit. Time-bound is implicit (end of course).",
+      "scoring_rationale": {
+        "specific": "Names 3 specific mechanisms and exact problem - no ambiguity",
+        "measurable": "Can objectively test implementation - run code, check correctness",
+        "achievable": "Reasonable for 1 project assignment in advanced OS course",
+        "relevant": "Core OS topic, synchronization is essential",
+        "time_bound": "Implicit end-of-course timeframe - standard for course LOs"
+      }
+    },
+    {
+      "lo_id": "BLOOMS_LO_3",
+      "framework": "BLOOMS",
+      "learning_objective": "Understand the principles of virtual memory management.",
+      "human_scores": {
+        "verb_accuracy": 1,
+        "cognitive_demand": 2,
+        "level_classification": 2
+      },
+      "human_composite": 1.67,
+      "human_notes": "HARD CONSTRAINT VIOLATED: Uses 'understand' - should be Remember/Understand level but this is too vague even for that. Verb doesn't specify HOW understanding will be demonstrated. Task is unclear - 'principles' is vague. Should be: 'Explain the principles...' (Understand level) or 'Apply virtual memory concepts to...' (Apply level).",
+      "scoring_rationale": {
+        "verb_accuracy": "'Understand' is weak - not a proper Bloom's verb. Should be explain/describe",
+        "cognitive_demand": "Task undefined - can't determine what thinking is required",
+        "level_classification": "Would be Understand level, but so vague it's hard to classify"
+      }
+    }
+  ],
+  "meta": {
+    "scorer_name": "Your Name",
+    "date_scored": "2026-02-21",
+    "rubric_version": "1.0",
+    "notes": "Used RUBRIC_REFERENCE.md for scoring criteria. Focused on being strict and consistent. When in doubt between two scores, chose lower score to match LLM's expected strictness with hard constraints."
+  }
+}
